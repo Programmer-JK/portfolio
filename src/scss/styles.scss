@@ -1,0 +1,15 @@
+@import './base/common';
+@import './base/variable';
+@import './base/mixin';
+
+@import './desktop/App.scss';
+
+@font-face {
+    font-family: 'Blacksword';
+    src: url('./fonts/Blacksword.otf');
+}
+
+@font-face {
+    font-family: 'Bmjua';
+    src: url('./fonts/BMJUA.ttf');
+}

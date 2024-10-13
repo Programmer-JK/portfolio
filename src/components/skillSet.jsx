@@ -23,7 +23,7 @@ function SkillSet() {
                 {
                     mainSkills.map((el) => {
                         return (
-                            <li key={`${el.lang}`} style={{display: 'flex', alignItems: 'center'}}>
+                            <li key={`${el.lang}`} style={{display: 'flex', alignItems: 'center', margin: '0 auto'}}>
                                 <div className="skill-name">{el.lang}</div>
                                 <div className="ability-bar">
                                     <ProgressBar 

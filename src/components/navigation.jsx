@@ -8,6 +8,7 @@ function Navigation() {
                     <div id="logo">
                         <a href="/portfolio">Park JongKwon</a>
                     </div>
+                    <span class="check">test</span>
                     <nav>
                         <a href="#about">&lt; About /&gt;</a>
                         <a href="#skills">&lt; Skills /&gt;</a>

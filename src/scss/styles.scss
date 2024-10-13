@@ -1,9 +1,3 @@
-@import './base/common';
-@import './base/variable';
-@import './base/mixin';
-
-@import './desktop/App.scss';
-
 @font-face {
     font-family: 'Blacksword';
     src: url('./fonts/Blacksword.otf');
@@ -13,3 +7,11 @@
     font-family: 'Bmjua';
     src: url('./fonts/BMJUA.ttf');
 }
+
+@import './base/common';
+@import './base/variable';
+@import './base/mixin';
+
+@import './desktop/App.scss';
+@import './mobile/App.scss';
+@import './tablet/App.scss'
